@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+  margin: 0; /* Removes default body margins */
+  padding: 0;
+}
+
+body {
+ .container {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2024/11/driving-to-raccoon-city-in-the-resident-evil-2-remake.jpg?w=1200&h=628&fit=crop');
+  background-size: cover;
+}
+
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+.navbar ul {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right:100px;
+    overflow:hidden;
+    border-radius:20px;
+margin-top: 80px;
+margin-bottom:80px;
+ height: 60px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #ff416d00, #ad1010, #ff000000); /* Example colors from GeeksforGeeks */
+    color: white;
+    padding: 0 20px;
+}
+a :hover {
+    background-color: #3e1c1c;
+}
+
+.navbar li a {
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: rgba(255, 57, 57, 0.2);
+}
+
+.navbar li{
+float:inline-start;
+}
+
+.navbar a {
+   display:block;
+   color: rgb(255, 255, 255);
+   text-align:center;
+   padding: 19px 20px;
+   text-decoration:none;
+}
+
+.navbar a:hover {
+    background-color:#3e1c1c;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around; 
+   font-size: 1.8rem;
+}
